@@ -1,0 +1,123 @@
+.player-details-container{
+  display: flex;
+  margin-top: 90px;
+}
+.player-card{
+  position: relative;
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.player-img{
+  margin-left: 100px;
+}
+.player-img img{
+  width: 400px;
+  height: 400px;
+}
+label{
+  margin-top:50px;
+}
+
+.player-info p{
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 1.6rem;
+}
+.player-info-buttons{
+  margin-top: 30px;
+}
+.player-info-buttons button{
+  color:white;
+  padding: 8px;
+  background-color: rgb(108, 145, 79);
+  margin-left: 20px;
+  cursor:pointer;
+}
+.player-buttons button{
+  width: 150px;
+  margin: 1.2rem;
+  padding: .8rem;
+  cursor:pointer;
+  background-color: rgb(108, 145, 79);
+  color: white;
+}
+.delete-layout{
+  transition-duration: 1s;
+  position: absolute;
+  border:2px solid black;
+  width: 100%;
+  height: 71vh;
+  top:69px;
+  background-color: rgba(0, 0, 0, 0.925);
+  z-index: 0;
+}
+.delete-card{
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.delete-title{
+  text-align: center;
+}
+.delete-title p{
+  font-size: 2rem;
+  margin-top:88px;
+}
+.delete-buttons{
+  width: 50%;
+  margin: auto;
+  margin-top:7rem;
+}
+.cancel{
+  background-color: red;
+}
+.delete-buttons button{
+  padding: 10px 26px 10px 26px;
+  margin-left: 15px;
+  color:white;
+  cursor: pointer;
+}
+.confirm{
+  background-color: rgb(108, 145, 79);
+}
+.cancel{
+  background-color: rgb(235, 48, 48);
+}
+.update-layout{
+  transition-duration: 1s;
+  position: absolute;
+  border:2px solid black;
+  width: 100%;
+  height: 71vh;
+  top:69px;
+  background-color: rgba(0, 0, 0, 0.925);
+  z-index: 0;
+}
+.update-card{
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  display:flex;
+  justify-content: center;
+}
+.update-form {
+ width: 80%;
+}
+.update-buttons{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.update-buttons button{
+  margin: 10px;
+}

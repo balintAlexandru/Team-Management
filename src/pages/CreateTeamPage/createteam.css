@@ -1,0 +1,28 @@
+ .create-team-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.create-team-container h1{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.team-context{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.team-context form{
+  width: 30%;
+}
+.team-image img{
+  width: 600px;
+  height: 400px;
+
+}
+.team-context form{
+  margin-left: 110px;
+}
+.team-context form label{
+  margin-top: 5px;
+} 

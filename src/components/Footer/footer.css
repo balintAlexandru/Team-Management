@@ -1,0 +1,11 @@
+footer{
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    margin-left: 10px;
+}
+footer span{
+    color: black;
+    margin:auto;
+
+}

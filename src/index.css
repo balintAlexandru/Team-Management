@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html{
+  position: relative;
+  background-color: black;
+
+}
+body{
+  background:url("https://wallpaperaccess.com/full/1348783.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App{
+  position: absolute;
+  width: 60%;
+  height: 750px;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.986);
+}
+ 

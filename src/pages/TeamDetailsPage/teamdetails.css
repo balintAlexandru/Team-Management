@@ -1,0 +1,108 @@
+.team-details{
+  display:flex;
+}
+.header-team{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.players-card-list{
+  margin-top: 50px;
+  width: 100%;
+  /* border:2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 500px;
+
+}
+.header-team button{
+  width: 150px;
+  margin: 1.2rem;
+  padding: .8rem;
+  cursor:pointer;
+  background-color: rgb(108, 145, 79);
+  color: white;
+}
+.details-image{
+  width: 300px;
+  height: 200px;
+}
+.team-info{
+  margin-right: 30px;
+  margin-top: 50px;
+}
+.info{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.info h2{
+  margin-bottom: 10px;
+}
+.players-list{
+  width: 100%;
+}
+.players-card-list{
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: wrap;
+}
+.player{
+  border: 1px solid black;
+  background-color: white;
+  width: 140px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor:pointer;
+  transition-duration: .5s;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.player:hover{
+  box-shadow: 5px 5px 5px rgb(121, 116, 116);
+}
+.player img{
+  width: 100%;
+  height: 140px;
+}
+.player h3 {
+  margin-top: 12px;
+}
+.player span{
+  margin-top: 3px;
+  font-size: .8rem;
+}
+.header-team h1{
+  text-align: center;
+  margin-top: 20px;
+}
+.team-info{
+  width: 700px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-img img{
+  width: 350px;
+  height: 200px;
+}
+.info-buttons{
+  margin-top: 20px;
+  width: 100%;
+}
+.info-buttons button{
+  margin-left: 20px;
+  padding: 10px;
+  background-color: rgb(108, 145, 79);
+  cursor: pointer;
+  color:white;
+}
